@@ -16,7 +16,7 @@ stages:
     pool:
       vmImage: 'ubuntu-latest'
     steps:
-    - task: Docker@3
+    - task: Docker@4
       displayName: Build an image
       inputs:
         containerRegistry: 'Docker-Hub-Connection'
