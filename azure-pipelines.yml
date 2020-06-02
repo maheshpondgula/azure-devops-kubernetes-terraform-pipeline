@@ -8,7 +8,7 @@ trigger:
 
 pool:
   #vmImage: 'ubuntu-latest'
-  VmImage: 'default'
+  pool: 'Default'
 
 steps:
 - script: echo Hello, world!
